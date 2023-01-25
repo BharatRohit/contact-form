@@ -1,5 +1,6 @@
 import streamlit as st
 st.header(":mailbox: Get In Touch With Me!")
+<link rel="style" type="text/css" href="https://github.com/BharatRohit/contact-form/blob/main/style.css">
 
 Contact_form = """
 <form action="https://formsubmit.co/rohitbharat810@gmail.com" method="POST">
@@ -14,8 +15,11 @@ Contact_form = """
 
 st.markdown(Contact_form,unsafe_allow_html=True)
 
-# Use Local Css File
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}<style>",unsafe_allow_html=True)
-local_css("contactform/style.css")
+
+# # Use Local Css File
+# def local_css(file_name):
+#     with open(file_name) as f:
+#         st.markdown(f"<style>{f.read()}<style>",unsafe_allow_html=True)
+# local_css("contactform/style.css")
+# https://github.com/BharatRohit/contact-form/blob/main/style.css
+     
