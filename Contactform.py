@@ -1,8 +1,9 @@
 import streamlit as st
 
 st.header(":mailbox: Get In Touch With Me!")
-<head>
+
 <link href="https://github.com/BharatRohit/contact-form/blob/main/style.css" rel="stylesheet" type="text/css">
+
 Contact_form = """
 <form action="https://formsubmit.co/rohitbharat810@gmail.com" method="POST">
 <input type="hidden" name="_captcha" value="false">
@@ -12,8 +13,6 @@ Contact_form = """
      <button type="submit">Send</button>
 </form>
 """
-<head>
-
 st.markdown(Contact_form,unsafe_allow_html=True)
 
 # # Use Local Css File
