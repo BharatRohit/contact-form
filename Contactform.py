@@ -8,7 +8,7 @@ Contact_form = """
      <input type="email" name="email" placeholder="Your email" required>
      <textarea name="message" placeholder="Type your message here"></textarea>
      <button type="submit">Send</button>
-     <link rel="stylesheet" type="text/css" href="https://github.com/BharatRohit/contact-form/blob/main/style.css">
+     <link href="https://github.com/BharatRohit/contact-form/blob/main/style.css" rel="stylesheet" type="text/css">
 </form>
 """
 
