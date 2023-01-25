@@ -1,11 +1,7 @@
 import streamlit as st
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>portfolio</title>
 		<link rel="stylesheet" type="text/css" href="https://github.com/BharatRohit/contact-form/blob/main/style.css">
-	</head>
-# <link rel="stylesheet" type="text/css" href="https://github.com/BharatRohit/contact-form/blob/main/style.css" >
+	
+
 st.header(":mailbox: Get In Touch With Me!")
 <body>
 Contact_form = """
