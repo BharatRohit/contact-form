@@ -1,9 +1,4 @@
 import streamlit as st
-<link rel="stylesheet"
-      type="text/css"
-      href="https://github.com/BharatRohit/contact-form/blob/main/style.css"
-/>
-
 st.header(":mailbox: Get In Touch With Me!")
 
 Contact_form = """
