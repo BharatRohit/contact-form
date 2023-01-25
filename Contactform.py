@@ -10,7 +10,7 @@ Contact_form = """
      <input type="text" name="name" placeholder="Your name" required>
      <input type="email" name="email" placeholder="Your email" required>
      <textarea name="message" placeholder="Type your message here"></textarea>
-    <input type="file" name="attachment" accept="image/png, image/jpeg">
+    
      <button type="submit">Send</button>
 </form>
 """
@@ -24,4 +24,5 @@ st.markdown(Contact_form,unsafe_allow_html=True)
 #         st.markdown(f"<style>{f.read()}<style>",unsafe_allow_html=True)
 # local_css("contactform/style.css")
 # https://github.com/BharatRohit/contact-form/blob/main/style.css
+# <input type="file" name="attachment" accept="image/png, image/jpeg">
      
